@@ -1,0 +1,43 @@
+body {
+    height: 100%;
+    background-image: url('assets/starry-sky-1655503.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#experience-select{
+    font-size: xx-large;
+    border: none;
+    background: none;
+    color: whitesmoke;
+    text-align: center;
+    background-color: transparent;
+}
+
+footer { 
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
