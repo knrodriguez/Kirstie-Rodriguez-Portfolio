@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    background-image: url('assets/starry-sky-1655503.jpg');
+    background-image: url('starry-sky-1655503.jpg');
     background-size: 100%;
     background-attachment: fixed;
     color: whitesmoke;
@@ -25,6 +25,10 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#welcome-logo {
+    z-index: -1;
 }
 
 #experience-select{

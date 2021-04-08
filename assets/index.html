@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kirstie Rodriguez's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="../src/index.js"></script>
 </head>
 <body>
     <header>
@@ -16,11 +17,12 @@
             <br>
             <span style="padding-left: 100px">
                 Kirstie's Space
-            </span
-        ></h1>
+            </span>
+            <h2>Kirstie Rodriguez, that is.</h2>
+        </h1>
     </header>
    <section id='welcome-page'>
-        <select name="experience" id="experience-select">
+        <select name="experience" id="experience-select" onchange="selectPage(this.value)">
             <option value="" selected disabled>Choose an experience:</option>
             <option value="retro">Retro <br><small>HTML/CSS/JS</small></small></option>
             <option value="modern">Modern <br><small>React</small></option>
