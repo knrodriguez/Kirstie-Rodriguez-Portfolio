@@ -4,6 +4,10 @@
     height: 400px;
 }
 
+#about-me{
+    height: 100vh;
+}
+
 .star {
     position: absolute;
     width: 75px; 
@@ -17,11 +21,11 @@
 }
 
 @keyframes pulse {
-    0% { opacity: 0.5; }
+    0% { opacity: 0.45; }
     50% { opacity: 1; }
-    100% { opacity: 0.5; }
+    100% { opacity: 0.45; }
 }
-#tvShows {
+#tv-shows {
     top: 36%;
     right: 15%;
 }
