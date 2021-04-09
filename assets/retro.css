@@ -1,0 +1,40 @@
+#modal {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+}
+
+.star {
+    position: absolute;
+    width: 75px; 
+    height: 75px; 
+    z-index: 1;
+    animation: pulse 2.5s linear infinite;
+}
+
+.star:hover {
+    cursor: pointer;
+}
+
+@keyframes pulse {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
+}
+#tvShows {
+    top: 36%;
+    right: 15%;
+}
+#games {
+    top: 73%;
+    left: 45%;
+    animation-delay: .75s;
+}
+#projects {
+    top: 50%;
+    left: 15%;
+    animation-delay: 1.5s;
+}
+
+/* .grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); } */

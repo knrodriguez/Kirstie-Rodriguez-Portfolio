@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta id="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kirstie's Portfolio in HTML/CSS/JS</title>
+    <link rel="stylesheet" href="retro.css">
     <link rel="stylesheet" href="style.css">
+    <!-- <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> -->
     <script defer src="../src/index.js"></script>
 </head>
 <body>
+    <div id="modal"></div>
     <div id='contact'>
         <a href="http://linkedin.com/kirstierodriguez">LinkedIn</a>
         <a href="http://github.com/knrodriguez">GitHub</a>
@@ -17,20 +23,38 @@
     <section id="about-me">
         <h1>Kirstie's Universe</h1>
         <!-- grow and make brighter on hover-->
-        <img src="" alt="Star that shows favorite TV shows" name="tvShows" onclick="openModal(this.name)"> 
-        <img src="" alt="Star that shows favorite games" name="games" onclick="openModal(this.name)">
-        <img src="" alt="Star that shows favorite projects" name="projects" onclick="openModal(this.name)">  
+        <img src="star.png" 
+            alt="Star that shows favorite TV shows" 
+            id="tvShows"
+            class="star" 
+            onclick="openModal(this.id)"
+        > 
+        <img src="star.png" 
+            alt="Star that shows favorite games" 
+            id="games" 
+            class="star" 
+            onclick="openModal(this.id)"
+        >
+        <img src="star.png" 
+            alt="Star that shows favorite projects" 
+            id="projects"
+            class="star" 
+            onclick="openModal(this.id)"
+        >  
     </section>
     <section id="tech-stack">
         <!--planets or constellations-->
         <!--on hover, move or "bump" or grow-->
-        <img src="" alt="Planet representing Node.js" name="nodejs" onclick="openModal(this.name)">
-        <img src="" alt="Planet representing React" name="react" onclick="openModal(this.name)">
-        <img src="" alt="Planet representing Redux" name="redux" onclick="openModal(this.name)">
-        <img src="" alt="Planet representing HMTL 5" name="html5" onclick="openModal(this.name)">
-        <img src="" alt="Planet representing CSS 3" name="css3" onclick="openModal(this.name)"> 
-        <img src="" alt="Planet representing JavaScript" name="javascript" onclick="openModal(this.name)">
-        <img src="" alt="Planet representing Material UI" name="materialUi" onclick="openModal(this.name)">
+        <img src="" alt="Planet representing Node.js" id="nodejs" onclick="openModal(this.id)">
+        <img src="" alt="Planet representing React" id="react" onclick="openModal(this.id)">
+        <img src="" alt="Planet representing Redux" id="redux" onclick="openModal(this.id)">
+        <img src="" alt="Planet representing HMTL 5" id="html5" onclick="openModal(this.id)">
+        <img src="" alt="Planet representing CSS 3" id="css3" onclick="openModal(this.id)"> 
+        <img src="" alt="Planet representing JavaScript" id="javascript" onclick="openModal(this.id)">
+        <img src="" alt="Planet representing Material UI" id="materialUi" onclick="openModal(this.id)">
+        <img src="" alt="Planet representing PostgreSQL" id="postgreSql" onclick="openModal(this.id)">
+        <h1>Hi</h1>
+        <h1>Hi</h1><h1>Hi</h1><h1>Hi</h1><h1>Hi</h1><h1>Hi</h1><h1>Hi</h1><h1>Hi</h1><h1>Hi</h1><h1>Hi</h1><h1>Hi</h1>
     </section>
     <section id="projects">
         <!--maybe planets if tech stack will be constellations-->
