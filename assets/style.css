@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    background-image: url('starry-sky-1655503.jpg');
+    background-image: url('./images/starry-sky-1655503.jpg');
     /* background-size: 100%; */
 background-size: cover;
     background-attachment: fixed;
