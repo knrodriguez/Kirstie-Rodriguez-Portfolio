@@ -2,7 +2,7 @@ body {
     height: 100%;
     background-image: url('./images/starry-sky-1655503.jpg');
     /* background-size: 100%; */
-background-size: cover;
+    background-size: cover;
     background-attachment: fixed;
     color: whitesmoke;
     display: flex;
@@ -25,14 +25,26 @@ h1 {
 section {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
+    height: 95vh;
+}
+
+section#experience {
+    height: auto;
+    display: none;
+}
+
+section#experience-retro,
+section#experience-modern,
+section#experience-advanced{
+    display: none;
 }
 
 #welcome-logo {
     z-index: -1;
 }
 
-#experience-select{
+#select-experience{
     font-size: xx-large;
     border: none;
     background: none;

@@ -1,15 +1,22 @@
 #modal {
     position: fixed;
-    width: 400px;
-    height: 400px;
+    width: 100vw;
+    height: auto;
 }
 
 #about-me{
     height: 100vh;
 }
 
+.stars{
+    width: 100vw;
+    height: 95vh;
+    padding: 5%;
+}
+
 .star {
-    position: absolute;
+    /* absolute */
+    position: relative;
     width: 75px; 
     height: 75px; 
     z-index: 1;
@@ -20,14 +27,24 @@
     cursor: pointer;
 }
 
+.tooltip {
+    visibility: hidden;
+}
+
+.tooltip:hover {
+    visibility: visible;
+}
+
 @keyframes pulse {
     0% { opacity: 0.45; }
-    50% { opacity: 1; }
+    50% { opacity: 5; }
     100% { opacity: 0.45; }
 }
 #tv-shows {
-    top: 36%;
-    right: 15%;
+    /* top: 50%;
+    right: 55%; */
+    top: 20%;
+    left: 79%;
 }
 #games {
     top: 73%;
@@ -35,8 +52,8 @@
     animation-delay: .75s;
 }
 #projects {
-    top: 50%;
-    left: 15%;
+    top: 40%;
+    left: 8%;
     animation-delay: 1.5s;
 }
 
