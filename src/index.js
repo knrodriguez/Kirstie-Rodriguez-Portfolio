@@ -1,7 +1,7 @@
 function selectPage(pageName) {
     switch(pageName){
         case "retro":
-            window.location.href="retro.html"
+            window.location.href="./retro/retro.html"
             break;
         case "modern":
             window.location.href="modern.html"
