@@ -1,8 +1,11 @@
 function selectPage(pageName) {
     const pages = ['retro','modern','advanced'];
-    pages.forEach(page => 
-        document.getElementById(`experience-${page}`).style.display = 'none');
-    document.getElementById(`experience-${pageName}`).style.display = 'block';
+    pages.forEach(page => {
+        let pageElem = document.getElementById(`experience-${page}`);
+        if(page === pageName) pageElem.style.display = 'block';
+        else pageElem.style.display = 'none';
+        return page;
+    })
 }
 
 function insertAfter(el, referenceNode) {

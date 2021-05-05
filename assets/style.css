@@ -34,9 +34,9 @@ section#experience {
     display: none;
 }
 
-section#experience-retro,
-section#experience-modern,
-section#experience-advanced{
+#experience-retro,
+#experience-modern,
+#experience-advanced{
     display: none;
 }
 
