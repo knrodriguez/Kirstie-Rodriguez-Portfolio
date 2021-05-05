@@ -5,7 +5,7 @@ const path = require('path');
 
 app.use(express.static(__dirname + '/assets'));
 
-app.get('/*', (req, res, next) => {
+app.get('*', (req, res, next) => {
     try {
         res.sendFile(__dirname + '/assets/index.html');
     } catch (error) {
